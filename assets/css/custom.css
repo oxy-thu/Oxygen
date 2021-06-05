@@ -1,0 +1,65 @@
+.rounded-bottom {
+    border-bottom-left-radius: 50px!important;
+    border-bottom-right-radius: 10px!important;
+}
+
+.rounded-start {
+    border-bottom-left-radius: 40px!important;
+    border-top-left-radius: 40px!important;
+}
+
+#profile_section{
+    margin-top: 50px;
+    padding-top:50px;
+}
+
+.card-photo{
+    width: 250px;
+    height: 250px;
+}
+
+
+/* Side nav section */
+.sidenav {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  right: 0;
+  background-color:#6c757d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*---- End Sidenav Section ----*/
